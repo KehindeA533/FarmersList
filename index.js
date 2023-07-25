@@ -1,6 +1,7 @@
 // Import Classes Here
 const Product = require("./classes/Product");
 const Cart = require("./classes/Cart");
+const Customer = require("./classes/Customer");
 
 ///
 /// Product
@@ -18,6 +19,7 @@ const Cart = require("./classes/Cart");
 ///
 /// Cart
 ///
+
 const strawberries = new Product(
   "Strawberries",
   5,
@@ -35,6 +37,10 @@ console.log(myCart.total);
 myCart.removeProduct(1);
 console.log(myCart.products);
 console.log(myCart.total);
+
+///
+/// Customer
+///
 
 // DO NOT EDIT BELOW THIS LINE
 try {
